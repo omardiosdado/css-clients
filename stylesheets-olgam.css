@@ -4,6 +4,17 @@
   }
 }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%) translateY(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) translateY(-50%);
+    opacity: 1;
+  }
+}
+
 :root {
   --rainbow: linear-gradient(
     rgba(255, 0, 0, 1) 0%,
@@ -20,11 +31,13 @@
   );
 }
 
-
 .vfrc-launcher {
-  background: var(--rainbow) 0 0/100% 200%;
-  animation: a 2s linear infinite !important;
+  position: relative;
+  background: #000000;
+  /* Your existing styles */
+  /* Include only the animation for the main launcher, not for the ::after pseudo-element */
 }
+
 .vfrc-widget--launcher:after {
     content: '';
     display: block;
@@ -35,4 +48,48 @@
     height: 20px;
     border-radius: 10px;
     background: #4af20a;
+}
+.vfrc-launcher::after {
+  content: "Chat with us 👋";
+  display: block;
+  position: absolute;
+  right: -180px; /* Adjust based on the size of your element */
+  top: 50%;
+  transform: translateX(-100%) translateY(-50%); /* Start off-screen */
+  opacity: 0; /* Start as transparent */
+  background-color: white; /* White background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 8px 20px; /* Padding */
+  font-size: 17px; /* Font size */
+  color: #333; /* Text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  white-space: nowrap; /* Prevent text wrapping */
+  /* Additional styling as needed */
+  animation: slideInFromLeft 0.5s ease-out 5s forwards; /* Animation with delay */
+}
+
+
+@keyframes jiggle {
+  0%, 100% {
+    transform: translateX(0) scale(1);
+    transform: translateY(0) scale(1);
+  }
+  25% {
+    transform: translateX(-5px) scale(1.05);
+    transform: translateY(-5px) scale(1.05);
+  }
+  75% {
+    transform: translateX(5px) scale(0.95);
+    transform: translateY(5px) scale(0.95);
+  }
+}
+
+.vfrc-launcher:hover {
+  background: #000000;
+  animation: jiggle 0.5s ease-in-out infinite;
+}
+
+.vfrc-launcher:hover::after {
+  background-color: #f7f7f7; /* Slightly different background on hover */
+  color: #555; /* Slightly different text color on hover */ /* Make the font weight bold on hover */
 }
