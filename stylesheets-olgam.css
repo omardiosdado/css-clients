@@ -28,3 +28,14 @@
   background: var(--rainbow) 0 0/100% 200%;
   animation: a 2s linear infinite !important;
 }
+.vfrc-widget--launcher:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: green;
+}
