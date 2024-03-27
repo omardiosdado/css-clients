@@ -1,9 +1,6 @@
 {
     "HOWARD BEACH": {
-        "Monday": {
-            "open": [6, 30],
-            "close": [19, 0]
-        },
+        "Monday": "6:00AM - 2:00PM",
         "Tuesday": {
             "open": [6, 0],
             "close": [19, 30]
