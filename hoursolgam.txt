@@ -1,74 +1,74 @@
 {
-    "HOWARD BEACH": {
-        "Monday": { "open": [6, 30], "close": [19, 0] },
-        "Tuesday": { "open": [6, 0], "close": [19, 30] },
-        "Wednesday": { "open": [6, 30], "close": [19, 0] },
-        "Thursday": { "open": [6, 0], "close": [19, 30] },
-        "Friday": { "open": [6, 30], "close": [18, 0] },
+    "HOWARD_BEACH": {
+        "Monday": "6:00AM - 2:00PM",
+        "Tuesday": "6:00AM - 7:30PM",
+        "Wednesday": "6:30AM - 7:00PM",
+        "Thursday": "6:00AM - 7:30PM",
+        "Friday": "6:30AM - 6:00PM",
         "Saturday": "CLOSED",
-        "Sunday": { "open": [6, 0], "close": [19, 30] }
+        "Sunday": "6:00AM - 7:30PM"
     },
     "JAMAICA": {
-        "Monday": { "open": [7, 30], "close": [20, 0] },
-        "Tuesday": { "open": [7, 0], "close": [20, 30] },
-        "Wednesday": { "open": [7, 30], "close": [20, 0] },
-        "Thursday": { "open": [7, 0], "close": [20, 30] },
-        "Friday": { "open": [7, 30], "close": [19, 0] },
+        "Monday": "7:30AM - 8:00PM",
+        "Tuesday": "7:00AM - 8:30PM",
+        "Wednesday": "7:30AM - 8:00PM",
+        "Thursday": "7:00AM - 8:30PM",
+        "Friday": "7:30AM - 7:00PM",
         "Saturday": "CLOSED",
-        "Sunday": { "open": [7, 0], "close": [20, 30] }
+        "Sunday": "7:00AM - 8:30PM"
     },
     "FLATBUSH": {
-        "Monday": { "open": [8, 0], "close": [18, 30] },
-        "Tuesday": { "open": [8, 30], "close": [18, 0] },
-        "Wednesday": { "open": [8, 0], "close": [18, 30] },
-        "Thursday": { "open": [8, 30], "close": [18, 0] },
-        "Friday": { "open": [8, 0], "close": [17, 30] },
+        "Monday": "8:00AM - 6:30PM",
+        "Tuesday": "8:30AM - 6:00PM",
+        "Wednesday": "8:00AM - 6:30PM",
+        "Thursday": "8:30AM - 6:00PM",
+        "Friday": "8:00AM - 5:30PM",
         "Saturday": "CLOSED",
-        "Sunday": { "open": [8, 30], "close": [18, 0] }
+        "Sunday": "8:30AM - 6:00PM"
     },
     "PARKCHESTER": {
-        "Monday": { "open": [9, 0], "close": [19, 30] },
-        "Tuesday": { "open": [9, 30], "close": [19, 0] },
-        "Wednesday": { "open": [9, 0], "close": [19, 30] },
-        "Thursday": { "open": [9, 30], "close": [19, 0] },
-        "Friday": { "open": [9, 0], "close": [18, 30] },
+        "Monday": "9:00AM - 7:30PM",
+        "Tuesday": "9:30AM - 7:00PM",
+        "Wednesday": "9:00AM - 7:30PM",
+        "Thursday": "9:30AM - 7:00PM",
+        "Friday": "9:00AM - 6:30PM",
         "Saturday": "CLOSED",
-        "Sunday": { "open": [9, 30], "close": [19, 0] }
+        "Sunday": "9:30AM - 7:00PM"
     },
     "MELROSE": {
-        "Monday": { "open": [10, 0], "close": [20, 30] },
-        "Tuesday": { "open": [10, 30], "close": [20, 0] },
-        "Wednesday": { "open": [10, 0], "close": [20, 30] },
-        "Thursday": { "open": [10, 30], "close": [20, 0] },
-        "Friday": { "open": [10, 0], "close": [19, 30] },
+        "Monday": "10:00AM - 8:30PM",
+        "Tuesday": "10:30AM - 8:00PM",
+        "Wednesday": "10:00AM - 8:30PM",
+        "Thursday": "10:30AM - 8:00PM",
+        "Friday": "10:00AM - 7:30PM",
         "Saturday": "CLOSED",
-        "Sunday": { "open": [10, 30], "close": [20, 0] }
+        "Sunday": "10:30AM - 8:00PM"
     },
-    "CLINTON HILL": {
-        "Monday": { "open": [11, 0], "close": [21, 30] },
-        "Tuesday": { "open": [11, 30], "close": [21, 0] },
-        "Wednesday": { "open": [11, 0], "close": [21, 30] },
-        "Thursday": { "open": [11, 30], "close": [21, 0] },
-        "Friday": { "open": [11, 0], "close": [20, 30] },
+    "CLINTON_HILL": {
+        "Monday": "11:00AM - 9:30PM",
+        "Tuesday": "11:30AM - 9:00PM",
+        "Wednesday": "11:00AM - 9:30PM",
+        "Thursday": "11:30AM - 9:00PM",
+        "Friday": "11:00AM - 8:30PM",
         "Saturday": "CLOSED",
-        "Sunday": { "open": [11, 30], "close": [21, 0] }
+        "Sunday": "11:30AM - 9:00PM"
     },
     "BROWNSVILLE": {
-                "Monday": { "open": [12, 0], "close": [22, 30] },
-        "Tuesday": { "open": [12, 30], "close": [22, 0] },
-        "Wednesday": { "open": [12, 0], "close": [22, 30] },
-        "Thursday": { "open": [12, 30], "close": [22, 0] },
-        "Friday": { "open": [12, 0], "close": [21, 30] },
+        "Monday": "12:00PM - 10:30PM",
+        "Tuesday": "12:30PM - 10:00PM",
+        "Wednesday": "12:00PM - 10:30PM",
+        "Thursday": "12:30PM - 10:00PM",
+        "Friday": "12:00PM - 9:30PM",
         "Saturday": "CLOSED",
-        "Sunday": { "open": [12, 30], "close": [22, 0] }
+        "Sunday": "12:30PM - 10:00PM"
     },
-    "FT. PIERCE": {
-        "Monday": { "open": [8, 0], "close": [18, 30] },
-        "Tuesday": { "open": [8, 30], "close": [18, 0] },
-        "Wednesday": { "open": [8, 0], "close": [18, 30] },
-        "Thursday": { "open": [8, 30], "close": [18, 0] },
-        "Friday": { "open": [8, 0], "close": [17, 30] },
+    "FT_PIERCE": {
+        "Monday": "8:00AM - 6:30PM",
+        "Tuesday": "8:30AM - 6:00PM",
+        "Wednesday": "8:00AM - 6:30PM",
+        "Thursday": "8:30AM - 6:00PM",
+        "Friday": "8:00AM - 5:30PM",
         "Saturday": "CLOSED",
-        "Sunday": { "open": [8, 30], "close": [18, 0] }
+        "Sunday": "8:30AM - 6:00PM"
     }
 }
