@@ -33,6 +33,7 @@
 
 .vfrc-launcher {
   position: relative;
+  top: -10px;
   background: #000000;
   /* Your existing styles */
   /* Include only the animation for the main launcher, not for the ::after pseudo-element */
